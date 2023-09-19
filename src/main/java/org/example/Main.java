@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Hello world!");
 
-        System.out.println("Another hello from yet another planet!");
+        System.out.println("Another hello from Mercury!");
 
-        Thread.sleep(1000);
-        System.exit(0);
+        Thread.sleep(6000);
+        System.exit(1);
     }
 }

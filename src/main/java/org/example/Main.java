@@ -5,8 +5,9 @@ public class Main {
         System.out.println("Hello world!");
 
         Thread.sleep(6000);
-        System.exit(1);
 
-        new Thread(() -> System.out.println("test test test")).run();
+        new Thread(() -> {
+            System.out.println("3 + 3 == 9");
+        }).run();
     }
 }

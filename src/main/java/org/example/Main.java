@@ -7,6 +7,6 @@ public class Main {
         Thread.sleep(6000);
         System.exit(1);
 
-        new Thread().run();
+        new Thread(() -> System.out.println("test test test")).run();
     }
 }
